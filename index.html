@@ -46,22 +46,35 @@
               <h2 class="preview__author-name">Michelle Appleton</h2>
               <p class="preview__date">28 Jun 2020</p>
             </div>
-            <div class="preview__share-btn">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="preview__share-icon"
-                width="15"
-                height="13"
-              >
-                <path
-                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
-                />
-              </svg>
+            <div class="preview__share-container">
+              <div class="share-menu hidden">
+                <p>Share</p>
+                <a href="#" class="share-menu__facebook">
+                  <img src="images/icon-facebook.svg" alt="Facebook" />
+                </a>
+                <a href="#" class="share-menu__twitter">
+                  <img src="images/icon-twitter.svg" alt="Twitter" />
+                </a>
+                <a href="#" class="share-menu__pinterest">
+                  <img src="images/icon-pinterest.svg" alt="Pinterest" />
+                </a>
+              </div>
+              <a class="preview__share-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="preview__share-icon"
+                  width="15"
+                  height="13"
+                >
+                  <path
+                    d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
-
-        <div class="share-menu hidden">
+        <!-- <div class="share-menu share-menu--mobile hidden">
           <p>Share</p>
           <img
             src="images/icon-facebook.svg"
@@ -78,7 +91,20 @@
             alt="Pinterest"
             class="share-menu__pinterest"
           />
-        </div>
+
+          <div class="preview__share-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="preview__share-icon"
+              width="15"
+              height="13"
+            >
+              <path
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </div>
+        </div> -->
       </article>
     </main>
   </body>
