@@ -34,6 +34,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .preview {
@@ -168,8 +169,16 @@ img {
     flex-direction: row;
   }
 
+  .preview__content {
+    padding: 3.2rem 4rem;
+  }
+
+  .preview__title {
+    font-size: 2rem;
+  }
+
   .preview__image-container {
-    flex: 1 0 28rem;
+    flex: 1 0 28.5rem;
     max-height: 100%;
 
     border-top-right-radius: 0;
